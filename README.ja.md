@@ -43,11 +43,12 @@ easy-notion-blog を使えばあっという間に Notion Blog を始めるこ�
     * 例) `158bd90116004cd19aca26ad88cb5c07`
     * :warning: **注意:** `?v=ここではありません`。`?v=` の前です。
 4. [Create an integration](https://developers.notion.com/docs/create-a-notion-integration#step-1-create-an-integration) からインテグレーションを作成し "Internal Integration Token" を `NOTION_API_SECRET` としてメモします
-5. 複製したページを再度開き [Share a database with your integration](https://developers.notion.com/docs/create-a-notion-integration#step-2-share-a-database-with-your-integration) の手順でインテグレーションにデータベースを共有します
+5. 複製したページを再度開き [Share a database with your integration](https://developers.notion.com/docs/create-a-notion-integration#step-2-share-a-database-with-your-integration) の手順でインテグレーションにデータベースを共有します(※デスクトップアプリにはなかったがブラウザからだと自分のIntegrationが見えた)
 6. [vercel.com](https://vercel.com/) にログインします
-7. プロジェクトを新規作成しリポジトリとして `otoyo/easy-notion-blog` をインポートします(チームの作成はスキップします)
-8. "Configure Project" で "Environment Variables" を開き先ほどメモした `NOTION_API_SECRET` と `DATABASE_ID` を入力します
-9. デプロイが完了すると Notion Blog が見えるようになります
+7. Githubで`otoyo/easy-notion-blog`をForkする(※Yona追記)。`Only install selected repository`から`easy-notion-blog`を探す
+8. プロジェクトを新規作成しリポジトリとして `otoyo/easy-notion-blog` をインポートします(チームの作成はスキップします)(※?)
+9. "Configure Project" で "Environment Variables" を開き先ほどメモした `NOTION_API_SECRET` と `DATABASE_ID` を入力します
+10. デプロイが完了すると Notion Blog が見えるようになります
 
 さらに詳しい解説は[へろほろさんの記事](https://herohoro.com/blog/easy-notion-blog-firstdeploy)をご覧ください。
 
