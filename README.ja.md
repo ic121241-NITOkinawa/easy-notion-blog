@@ -65,6 +65,24 @@ easy-notion-blog を使えばあっという間に Notion Blog を始めるこ�
 
 ## カスタマイズするには
 
+### URLのホスト名変更
+1. notion-blogのProduction Deployment画面でDeployment項の`xxxx.vercel.app`をクリックする。
+![image](https://user-images.githubusercontent.com/24447477/222940631-99898a65-b228-46b3-86fc-07bcabfeb235.png)
+
+2. Assigning Domains の Custom Domain の `Manage` をクリックする
+
+![image](https://user-images.githubusercontent.com/24447477/222940736-023513e1-55d9-4a56-bc34-1608eb598b59.png)
+
+3. Editを選択
+
+![image](https://user-images.githubusercontent.com/24447477/222940765-c632a998-42b7-4d6b-a7c9-5914d367958e.png)
+
+4. `Domain`欄に好きな文字列を入力して、`Save`
+5. 
+![image](https://user-images.githubusercontent.com/24447477/222940769-eeb8c9eb-9433-4185-850b-6bbcc218158d.png)
+
+
+
 ### 追加の必要要件
 
 - Node.js v16 もしくはそれ以上
