@@ -48,7 +48,10 @@ easy-notion-blog を使えばあっという間に Notion Blog を始めるこ�
 7. Githubで`otoyo/easy-notion-blog`をForkする(※Yona追記)。`Only install selected repository`から`easy-notion-blog`を探す
 8. プロジェクトを新規作成しリポジトリとして `otoyo/easy-notion-blog` をインポートします(チームの作成はスキップします)(※?)
 9. "Configure Project" で "Environment Variables" を開き先ほどメモした `NOTION_API_SECRET` と `DATABASE_ID` を入力します
-10. デプロイが完了すると Notion Blog が見えるようになります
+
+![image](https://user-images.githubusercontent.com/24447477/222940038-f19be70a-9537-4098-9e7c-d4f30da8c5dd.png)
+
+11. デプロイが完了すると Notion Blog が見えるようになります
 
 さらに詳しい解説は[へろほろさんの記事](https://herohoro.com/blog/easy-notion-blog-firstdeploy)をご覧ください。
 
