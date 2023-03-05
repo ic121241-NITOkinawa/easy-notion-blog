@@ -45,6 +45,12 @@ const RootPage = () => (
         <h2>Welcomeページ!</h2>
         <p>Yonaが思いついたら何か書くページです</p>
         <p>内容が雑多すぎて本人もカテゴリ分けに苦労してるので許して</p>
+        <p>
+          easy-notion-blog powered by{' '}
+          <Link href="https://github.com/otoyo/easy-notion-blog">
+            otoyo/easy-notion-blog
+          </Link>
+        </p>
       </div>
     </div>
   </>
